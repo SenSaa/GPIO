@@ -1,5 +1,5 @@
 # GPIO
-Application to trigger GPIO 66 output pin based on GPIO 69 pin input.
+Application to trigger GPIO 66 output pin (interfaced with LED) based on GPIO 69 pin input (interfaced with button).
 
 User-space GPIO programming via sysfs to export information through Beaglebone Black's device tree.
 Cross-Compiled and remotely deployed using Eclipse and GCC-Linaro Toolchain on Windows.
