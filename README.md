@@ -1,10 +1,10 @@
 # GPIO
-Application to trigger GPIO 66 output pin (interfaced with LED) based on GPIO 69 pin input (interfaced with button).
+Application to trigger BeagleBone Black GPIO 66 output pin (interfaced with LED) based on GPIO 69 pin input (interfaced with button).
 
 User-space GPIO programming via sysfs to export information through Beaglebone Black's device tree.
 Cross-Compiled and remotely deployed using Eclipse and GCC-Linaro Toolchain on Windows.
 
-GPIO conversion formula (to map physical pin numbers to the kernel pin number):
+Beaglebone GPIO conversion formula (to map physical pin numbers to the kernel pin number):
 ```
  GPIO[nx32+m].
 ```
